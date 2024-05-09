@@ -283,7 +283,11 @@ margin: 0 1rem 1rem 0;
 	
 }
 
-
+.external-link::after {
+	content: url(../images/icon-external-link.png);
+	margin-left: .25rem;
+	vertical-align: middle;
+}
 
 /* Sidebar
 --------------------------------------------- */
